@@ -11,7 +11,7 @@ from .manager import CustomUserManager
 from django.contrib.auth.models import User, AbstractUser
 from django.conf import settings
 from urllib.parse import urlencode
-
+from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 import secrets
 
